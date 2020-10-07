@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f5f6fa;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.card {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 6px 6px 0px rgba(128, 128, 128, 0.055);
+    min-width: 20vw;
+}
+.card p {
+    color: rgb(128, 128, 128);
+    font-weight: 17px;
+}
+.app-underneath {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+.table-container {
+    background-color: white;
+}
+.table {
+    overflow: scroll;
+    height: 50vh;
+    box-shadow: 6px 6px 0px rgba(128, 128, 128, 0.055);
+    margin-top: 20px;
+}
+.table tr {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    padding: 10px;
+}
+.table::-webkit-scrollbar {
+    display: none;
+}
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.app-above {
+    margin: 20px;
+}
+select {
+    outline: none;
+}
